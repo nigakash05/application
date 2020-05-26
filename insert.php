@@ -17,7 +17,7 @@ if(isset ($_POST['Name'])&&($_POST['Password'])&&($_POST['Email'])&&($_POST['Pho
 	if($data)
 	{
 		echo "success";
-        header("Location: search.php");
+        header("Location: https://akashwebapp05.azurewebsites.net/search.php");
        
 	}
 	else
@@ -30,7 +30,7 @@ if(isset ($_POST['Name'])&&($_POST['Password'])&&($_POST['Email'])&&($_POST['Pho
 	{
 	
 
-include_once 'index.html';
+include_once 'https://akashwebapp05.azurewebsites.net/index.html';
 
 	}
 ?>
